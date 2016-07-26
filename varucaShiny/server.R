@@ -1,6 +1,4 @@
 shinyServer(function(input,output){
-  library("arules")
-  library("MASS")
   source("AP.R")
   
   output$Aplot <- reactivePlot(
