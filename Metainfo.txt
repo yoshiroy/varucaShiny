@@ -5,10 +5,14 @@ Published in:             'Visualization of cross tabulation by the Association 
 
 Description:              'Shiny application of the Visualization of cross tabulation of questionnaire by media layers based on gender and age. The visualization used association rules and the biplot of correspondence analysis.'
 
-Keywords:                 'questionnaire, association rules, correspondence analysi'
+Keywords:                 'data visualization, interactive, data mining, correspondence-analysis, graphical representation'
+
+See also (optional) : veruca
 
 Author[New]:              'Sanetoshi Yamada and Yoshiro Yamamoto'
 
 Submitted:                '2016-07-22, Yoshiro Yamamoto'
+
+Datafile :                '.RData'
 
 Output:                   'Plot of the association rule plot using the biplot of the correspondence analysis.'
