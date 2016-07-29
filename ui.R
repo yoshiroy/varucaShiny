@@ -1,4 +1,4 @@
-#QD <- read.csv("Content.csv",row.names=1)
+QD <- read.csv("Content.csv",row.names=1)
 shinyUI(
   pageWithSidebar(
     headerPanel("Relevance plot for the question and media layer"),

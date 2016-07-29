@@ -1,9 +1,9 @@
 AP <- function(Q="Q15",Cex=1,As=25,Ms=50,Supp=0.01,Conf=0.1,Lift=1.3,l=2,Lhs="M"){
   
-#  AD <- read.csv("questionnaire.csv",row.names=1)
-#  ML <- read.csv("monitor.csv",row.names=1)
+  AD <- read.csv("questionnaire.csv",row.names=1)
+  ML <- read.csv("monitor.csv",row.names=1)
   attach(ML)
-#  QD <- read.csv("Content.csv",row.names=1)
+  QD <- read.csv("Content.csv",row.names=1)
   MC="Media"
   
   ADS <- AD[,substring(colnames(AD),1,nchar(Q)+1)==paste0(Q,"_")]
